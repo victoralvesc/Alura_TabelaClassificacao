@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <link href="styles.css" rel="stylesheet">
+    <title>
+        Imersão Dev - Aula 06
+    </title>
+</head>
+
+<body>
+    <h1>Tabela de classificação</h1>
+
+    <div id="Botao">
+        <input class="campo" type="text" name="novoJogador" id="novoJogador" placeholder="Digite seu nome">
+        <input class="campo" type="text" name="fotoJogador" id="fotoJogador" placeholder="Insira o link da foto">
+        <button class="insercao" onClick="adicionarJogador()"> Adicionar Jogador(a) </button>
+        <p></p>
+    </div>
+
+    <table style="width:80%">
+        <thead>
+            <tr>
+                <th>Foto</th>
+                <th>Nome</th>
+                <th>Vitórias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Pontos</th>
+                <th colspan="5">Ações</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+
+        </tbody>
+    </table>
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
